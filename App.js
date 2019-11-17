@@ -73,7 +73,7 @@ class App extends React.Component {
   						// smart contract to address
   async contractSendToAddress() {
 	  await this.contract.methods.sendEther(this.state.to).send({
-		  from: this.contract,
+		  from: '0x5888E695e574B6fd87E9552a50736875ec535773',
 	  })
   }
 
